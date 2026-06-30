@@ -1,0 +1,20 @@
+# Packer generated file
+plugin/packer_compiled.lua
+
+# Vim/Neovim temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+
+# netrw history
+.netrwhist
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local notes / secrets
+.local.lua
+secrets.lua
