@@ -34,5 +34,19 @@ return require('packer').startup(function(use)
   use "vim-airline/vim-airline-themes"
 
   -- Project exploier in sidebar
-  use "preservim/nerdtree"
+  use {
+    "nvim-tree/nvim-tree.lua",
+    requires = {
+        "nvim-tree/nvim-web-devicons",
+    }
+  }
+  
+  -- Git diff in nvim
+  use "lewis6991/gitsigns.nvim"
+
+  -- Keymap helper
+  use "folke/which-key.nvim"
+
+  -- PostgreSQL syntax
+  use "devrimgunduz/pgsql.vim"
 end)
