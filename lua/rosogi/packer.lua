@@ -41,6 +41,9 @@ return require('packer').startup(function(use)
     }
   }
   
+  -- Indentation guides
+  use "lukas-reineke/indent-blankline.nvim"
+
   -- Git diff in nvim
   use "lewis6991/gitsigns.nvim"
 
